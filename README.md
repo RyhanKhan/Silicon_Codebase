@@ -15,7 +15,6 @@ This repository uses a **two‑stage recommender** implemented in Python/Jupyter
 ## Folder Contents (single‑folder layout)
 
 ```
-WWT Project/
   # Notebooks (run in numeric order)
   1_order_data_cleaning.ipynb
   2_customer_data_cleaning.ipynb
@@ -56,10 +55,7 @@ WWT Project/
   # Misc
   requirements.txt
   README.md
-  WWT_Unravel_2025_-_Problem_Statement.pdf
 ```
-
-Because everything is side‑by‑side, you **don’t** need to edit paths in the notebooks. Just make sure you are **running Jupyter with the working directory set to `WWT Project/`.**
 
 ---
 
