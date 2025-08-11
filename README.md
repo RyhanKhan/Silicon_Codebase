@@ -192,8 +192,13 @@ Run notebooks **in numeric order**; each writes files back into this folder:
 
 ---
 
-## Team / License
+- ## Cloning this repo (Git LFS required)
 
-- Team: _<Your Team Name>_  
-- Contact: _<emails>_  
-- License: _<MIT / Apache‑2.0 / etc.>_
+This repo uses **Git LFS** for large CSVs (e.g., `order_data.csv`). Before cloning:
+
+```bash
+git lfs install          # one-time on your machine
+git clone <YOUR-REPO-URL>
+cd <your-repo>
+git lfs pull             # fetch the large files (if they didn’t auto-download)
+
